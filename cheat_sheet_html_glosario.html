@@ -1,0 +1,108 @@
+<!-- Archivo: index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cheat Sheet — Glosario HTML</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Cheat Sheet — Glosario de HTML</h1>
+  <p>Este glosario presenta las etiquetas y atributos principales de HTML con definiciones y ejemplos, basado en el material de clase.</p>
+
+  <section>
+    <h2>&lt;!DOCTYPE html&gt;</h2>
+    <p>Define el tipo de documento y le indica al navegador que el archivo está escrito en HTML5.</p>
+    <div class="example">&lt;!DOCTYPE html&gt;</div>
+    <p class="nota">Nota: siempre debe ir en la primera línea del documento.</p>
+  </section>
+
+  <section>
+    <h2>&lt;html&gt;</h2>
+    <p>Elemento raíz de un documento HTML. Todo el contenido se encierra dentro de esta etiqueta.</p>
+    <div class="example">&lt;html lang="es"&gt; ... &lt;/html&gt;</div>
+  </section>
+
+  <section>
+    <h2>&lt;head&gt;</h2>
+    <p>Contiene metadatos del documento: título, codificación, enlaces a CSS, scripts, etc.</p>
+    <div class="example">&lt;head&gt; &lt;title&gt;Mi página&lt;/title&gt; &lt;/head&gt;</div>
+  </section>
+
+  <section>
+    <h2>&lt;body&gt;</h2>
+    <p>Contiene todo el contenido visible de la página web, como texto, imágenes, enlaces y formularios.</p>
+    <div class="example">&lt;body&gt; &lt;h1&gt;Hola mundo&lt;/h1&gt; &lt;/body&gt;</div>
+  </section>
+
+  <section>
+    <h2>Encabezados (&lt;h1&gt;...&lt;h6&gt;)</h2>
+    <p>Definen títulos y subtítulos, con importancia jerárquica (h1 el más importante, h6 el menor).</p>
+    <div class="example">&lt;h1&gt;Título principal&lt;/h1&gt; &lt;h2&gt;Subtítulo&lt;/h2&gt;</div>
+  </section>
+
+  <section>
+    <h2>&lt;p&gt;</h2>
+    <p>Representa un párrafo de texto.</p>
+    <div class="example">&lt;p&gt;Este es un párrafo.&lt;/p&gt;</div>
+  </section>
+
+  <section>
+    <h2>&lt;a&gt; (hipervínculos)</h2>
+    <p>Crea un enlace a otra página, recurso o sección interna.</p>
+    <div class="example">&lt;a href="https://ejemplo.com"&gt;Visitar&lt;/a&gt;</div>
+    <p class="nota">Una URL puede ser absoluta (con protocolo y dominio) o relativa (en relación a la ubicación del archivo actual).</p>
+  </section>
+
+  <section>
+    <h2>Listas (&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;)</h2>
+    <p>
+      &lt;ul&gt; crea listas no ordenadas. &lt;ol&gt; crea listas ordenadas. &lt;li&gt; define cada elemento.
+      &lt;dl&gt; listas descriptivas con términos &lt;dt&gt; y descripciones &lt;dd&gt;.
+    </p>
+    <div class="example">&lt;ul&gt;&lt;li&gt;Elemento&lt;/li&gt;&lt;/ul&gt;</div>
+  </section>
+
+  <section>
+    <h2>Tablas (&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;, &lt;th&gt;, &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;)</h2>
+    <p>Permiten organizar datos en filas y columnas.</p>
+    <div class="example">&lt;table&gt;&lt;tr&gt;&lt;th&gt;Nombre&lt;/th&gt;&lt;td&gt;Carlos&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</div>
+  </section>
+
+  <section>
+    <h2>Multimedia (&lt;img&gt;, &lt;audio&gt;, &lt;video&gt;, &lt;source&gt;)</h2>
+    <p>Insertan imágenes, audio o video en una página.</p>
+    <div class="example">&lt;img src="foto.jpg" alt="Descripción"&gt;</div>
+  </section>
+
+  <section>
+    <h2>Objetos (&lt;iframe&gt;, &lt;object&gt;)</h2>
+    <p>&lt;iframe&gt; permite incrustar páginas externas. &lt;object&gt; inserta otros tipos de archivo (ej. PDF).</p>
+    <div class="example">&lt;iframe src="https://ejemplo.com" width="400" height="300"&gt;&lt;/iframe&gt;</div>
+  </section>
+
+  <section>
+    <h2>Formularios (&lt;form&gt;, &lt;input&gt;, &lt;select&gt;, &lt;option&gt;, &lt;textarea&gt;, &lt;label&gt;)</h2>
+    <p>Permiten capturar datos del usuario mediante controles.</p>
+    <div class="example">&lt;form&gt;&lt;label&gt;Nombre: &lt;input type="text" name="nombre"&gt;&lt;/label&gt;&lt;/form&gt;</div>
+    <p class="nota">El atributo &lt;code&gt;name&lt;/code&gt; establece el nombre de la variable y &lt;code&gt;value&lt;/code&gt; su valor.</p>
+  </section>
+
+  <section>
+    <h2>Atributos comunes</h2>
+    <ul>
+      <li><b>id</b>: Nombre único dentro del documento.</li>
+      <li><b>class</b>: Permite agrupar elementos para estilos o scripts.</li>
+      <li><b>name</b>: Define el nombre de una variable en formularios.</li>
+      <li><b>value</b>: Establece un valor en campos de formularios.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Elaborado Por Salazar Santoyo Carlos A. 59623.</p>
+  </footer>
+</body>
+</html>
+
+
